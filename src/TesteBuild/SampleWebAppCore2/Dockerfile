@@ -1,7 +1,7 @@
 FROM microsoft/aspnetcore:2.0.8-nanoserver-sac2016 AS base 
 WORKDIR /app
 EXPOSE 80
-
+ 
 FROM microsoft/2.0-nanoserver-sac2016 AS build
 WORKDIR /src
 COPY TesteBuild.sln ./
